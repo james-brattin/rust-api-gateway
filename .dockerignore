@@ -1,0 +1,15 @@
+# Ignore everything
+**
+
+# Whitelist (un-ignore) what's needed
+!Cargo.toml
+!Cargo.lock
+!src/
+!templates/
+!static/
+
+# Ignore specific files in src/ (if needed)
+# src/*.ignore
+
+# Ignore all target directories
+target/
